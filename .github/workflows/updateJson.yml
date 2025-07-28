@@ -39,3 +39,13 @@ jobs:
       # Echo a message to indicate completion
       - name: Echo completion message
         run: echo "JSON update completed successfully."
+
+      # Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update JSON data" || echo "No changes to commit"
+          git push
+
