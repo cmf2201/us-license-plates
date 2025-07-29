@@ -26,32 +26,29 @@ def generate_plate_json(base_dir, output_file):
         if not os.path.isdir(state_path):
             continue
 
-        plates = []
-        for filename in os.listdir(state_path):
-            full_path = os.path.join(state_path, filename)
-            name, ext = os.path.splitext(filename)
-            ext = ext.lower()
+        plates = set()
+        for root, _, files in os.walk(state_path):
+            for filename in files:
+                name, ext = os.path.splitext(filename)
+                ext = ext.lower()
+                full_path = os.path.join(root, filename)
 
-            if ext == GIF_EXTENSION:
-                # Convert GIF → PNG
-                new_path = convert_gif_to_png(full_path)
-                if new_path:
-                    name = os.path.splitext(os.path.basename(new_path))[0]
-                    plates.append(name)
-            elif ext in VALID_IMAGE_EXTENSIONS:
-                plates.append(name)
-            else:
-                unknown_exts.add(ext)
+                if ext == GIF_EXTENSION:
+                    new_path = convert_gif_to_png(full_path)
+                    if new_path:
+                        name = os.path.splitext(os.path.basename(new_path))[0]
+                        plates.add(name)
+                elif ext in VALID_IMAGE_EXTENSIONS:
+                    plates.add(name)
+                else:
+                    unknown_exts.add(ext)
 
         if plates:
             data[state] = sorted(plates)
 
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=2)
-    
+
     print(f"\nJSON written to {output_file}")
     if unknown_exts:
         print(f"Unknown file types encountered: {', '.join(sorted(unknown_exts))}")
-
-# Generate JSON file from license plates directory
-# generate_plate_json(base_dir='license-plate-site/us-license-plates/plates', output_file='JsonFile\licenseplates.json')
