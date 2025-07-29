@@ -17,7 +17,7 @@ def convert_gif_to_png(filepath):
         print(f"Failed to convert {filepath}: {e}")
         return None
 
-def generate_plate_json(base_dir, output_file):
+def generate_nested_plate_json(base_dir, output_file):
     data = {}
     unknown_exts = set()
 
@@ -26,12 +26,18 @@ def generate_plate_json(base_dir, output_file):
         if not os.path.isdir(state_path):
             continue
 
-        plates = set()
-        for root, _, files in os.walk(state_path):
-            for filename in files:
+        data[state] = {}
+
+        for category in os.listdir(state_path):
+            cat_path = os.path.join(state_path, category)
+            if not os.path.isdir(cat_path):
+                continue
+
+            plates = set()
+            for filename in os.listdir(cat_path):
                 name, ext = os.path.splitext(filename)
                 ext = ext.lower()
-                full_path = os.path.join(root, filename)
+                full_path = os.path.join(cat_path, filename)
 
                 if ext == GIF_EXTENSION:
                     new_path = convert_gif_to_png(full_path)
@@ -43,12 +49,12 @@ def generate_plate_json(base_dir, output_file):
                 else:
                     unknown_exts.add(ext)
 
-        if plates:
-            data[state] = sorted(plates)
+            if plates:
+                data[state][category] = sorted(plates)
 
     with open(output_file, 'w') as f:
         json.dump(data, f, indent=2)
 
-    print(f"\nJSON written to {output_file}")
+    print(f"\nNested JSON written to {output_file}")
     if unknown_exts:
         print(f"Unknown file types encountered: {', '.join(sorted(unknown_exts))}")
