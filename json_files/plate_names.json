@@ -343,6 +343,7 @@
       "CCR",
       "Governers Council",
       "House",
+      "MA-plates_image-067",
       "MVRTA",
       "Metro Distric Commision",
       "Municipal Fire",
@@ -357,25 +358,6 @@
       "US Congress",
       "US Senate",
       "Water Resource Authority"
-    ],
-    "common": [
-      "MA-plates_image-033",
-      "MA-plates_image-034",
-      "MA-plates_image-035",
-      "MA-plates_image-036",
-      "MA-plates_image-037",
-      "MA-plates_image-038",
-      "MA-plates_image-039",
-      "MA-plates_image-040",
-      "MA-plates_image-041",
-      "MA-plates_image-045",
-      "MA-plates_image-046",
-      "MA-plates_image-047",
-      "MA-plates_image-048",
-      "MA-plates_image-050",
-      "MA-plates_image-051",
-      "MA-plates_image-056",
-      "MA-plates_image-067"
     ],
     "Non-Passenger Other": [
       "Am Radio",
@@ -405,6 +387,7 @@
     "Other": [
       "5x Champs",
       "6x Champs",
+      "Advancing Health",
       "Atlantic White Shark Conservancy",
       "Birthplace of BasketBall",
       "Boston Celtics",
@@ -420,6 +403,8 @@
       "Fallen Heroes",
       "Fenway Park",
       "Firefighters Memorial",
+      "Freemasonry",
+      "Habitat & Haritage",
       "Hat PS",
       "Invest in Children",
       "Invest in Youth Hocket",
@@ -465,7 +450,7 @@
       "Veteran",
       "Vietnam Veteran"
     ],
-    "Common2": [
+    "Common": [
       "MA-plates_image-013",
       "page9_img2"
     ]

@@ -343,6 +343,7 @@
       "us-license-plates/plates/MA/Offical/CCR.png",
       "us-license-plates/plates/MA/Offical/Governers%20Council.jpg",
       "us-license-plates/plates/MA/Offical/House.png",
+      "us-license-plates/plates/MA/Offical/MA-plates_image-067.jpg",
       "us-license-plates/plates/MA/Offical/MVRTA.png",
       "us-license-plates/plates/MA/Offical/Metro%20Distric%20Commision.png",
       "us-license-plates/plates/MA/Offical/Municipal%20Fire.png",
@@ -357,25 +358,6 @@
       "us-license-plates/plates/MA/Offical/US%20Congress.jpg",
       "us-license-plates/plates/MA/Offical/US%20Senate.jpg",
       "us-license-plates/plates/MA/Offical/Water%20Resource%20Authority.png"
-    ],
-    "common": [
-      "us-license-plates/plates/MA/common/MA-plates_image-033.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-034.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-035.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-036.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-037.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-038.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-039.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-040.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-041.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-045.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-046.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-047.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-048.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-050.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-051.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-056.jpg",
-      "us-license-plates/plates/MA/common/MA-plates_image-067.jpg"
     ],
     "Non-Passenger Other": [
       "us-license-plates/plates/MA/Non-Passenger%20Other/Am%20Radio.png",
@@ -405,6 +387,7 @@
     "Other": [
       "us-license-plates/plates/MA/Other/5x%20Champs.png",
       "us-license-plates/plates/MA/Other/6x%20Champs.png",
+      "us-license-plates/plates/MA/Other/Advancing%20Health.jpg",
       "us-license-plates/plates/MA/Other/Atlantic%20White%20Shark%20Conservancy.png",
       "us-license-plates/plates/MA/Other/Birthplace%20of%20BasketBall.png",
       "us-license-plates/plates/MA/Other/Boston%20Celtics.png",
@@ -420,6 +403,8 @@
       "us-license-plates/plates/MA/Other/Fallen%20Heroes.png",
       "us-license-plates/plates/MA/Other/Fenway%20Park.png",
       "us-license-plates/plates/MA/Other/Firefighters%20Memorial.png",
+      "us-license-plates/plates/MA/Other/Freemasonry.jpg",
+      "us-license-plates/plates/MA/Other/Habitat%20%26%20Haritage.jpg",
       "us-license-plates/plates/MA/Other/Hat%20PS.jpg",
       "us-license-plates/plates/MA/Other/Invest%20in%20Children.png",
       "us-license-plates/plates/MA/Other/Invest%20in%20Youth%20Hocket.png",
@@ -465,9 +450,9 @@
       "us-license-plates/plates/MA/Military/Veteran.png",
       "us-license-plates/plates/MA/Military/Vietnam%20Veteran.png"
     ],
-    "Common2": [
-      "us-license-plates/plates/MA/Common2/MA-plates_image-013.jpg",
-      "us-license-plates/plates/MA/Common2/page9_img2.jpeg"
+    "Common": [
+      "us-license-plates/plates/MA/Common/MA-plates_image-013.jpg",
+      "us-license-plates/plates/MA/Common/page9_img2.jpeg"
     ]
   },
   "TN": {
