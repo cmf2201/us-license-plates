@@ -343,6 +343,7 @@
       "CCR",
       "Governers Council",
       "House",
+      "MA-plates_image-067",
       "MVRTA",
       "Metro Distric Commision",
       "Municipal Fire",
@@ -357,25 +358,6 @@
       "US Congress",
       "US Senate",
       "Water Resource Authority"
-    ],
-    "common": [
-      "MA-plates_image-033",
-      "MA-plates_image-034",
-      "MA-plates_image-035",
-      "MA-plates_image-036",
-      "MA-plates_image-037",
-      "MA-plates_image-038",
-      "MA-plates_image-039",
-      "MA-plates_image-040",
-      "MA-plates_image-041",
-      "MA-plates_image-045",
-      "MA-plates_image-046",
-      "MA-plates_image-047",
-      "MA-plates_image-048",
-      "MA-plates_image-050",
-      "MA-plates_image-051",
-      "MA-plates_image-056",
-      "MA-plates_image-067"
     ],
     "Non-Passenger Other": [
       "Am Radio",
@@ -405,6 +387,7 @@
     "Other": [
       "5x Champs",
       "6x Champs",
+      "Advancing Health",
       "Atlantic White Shark Conservancy",
       "Birthplace of BasketBall",
       "Boston Celtics",
@@ -420,6 +403,8 @@
       "Fallen Heroes",
       "Fenway Park",
       "Firefighters Memorial",
+      "Freemasonry",
+      "Habitat & Haritage",
       "Hat PS",
       "Invest in Children",
       "Invest in Youth Hocket",
@@ -465,7 +450,7 @@
       "Veteran",
       "Vietnam Veteran"
     ],
-    "Common2": [
+    "Common": [
       "MA-plates_image-013",
       "page9_img2"
     ]
@@ -1145,7 +1130,11 @@
     ]
   },
   "MO": {
-    "common": [
+    "Common": [
+      "Missouri-Licesnse-Plate-Sample-lrg",
+      "s-l1200"
+    ],
+    "other": [
       "KAPsi",
       "MO-3RM",
       "MO-41RM",
@@ -1712,7 +1701,10 @@
     ]
   },
   "CT": {
-    "common": [
+    "Common": [
+      "2015_to_Present_Connecticut_license_plate"
+    ],
+    "other": [
       "FOP",
       "Preservation-CT",
       "USS",
@@ -2868,6 +2860,9 @@
   },
   "CA": {
     "common": [
+      "pass-1"
+    ],
+    "other": [
       "APPORTIONED",
       "AmRadioblock",
       "AmRadioblugld",
@@ -2962,7 +2957,6 @@
       "mot-2",
       "olymgamesELP",
       "olymgamesmc",
-      "pass-1",
       "pass-2",
       "pass-3",
       "pass-4",
@@ -3008,7 +3002,13 @@
     ]
   },
   "MD": {
-    "common": [
+    "Common": [
+      "MVA_MDProud_LicensePlate_390px",
+      "Maryland_license_plate,_1986\u20132004_series_with_2010_sticker",
+      "images",
+      "md"
+    ],
+    "other": [
       "101st-Airborne",
       "11th-Armored-Cavalrys-Veterans-of-Vietnam-and-Cambodia",
       "167th-Airlift-Wing",
@@ -4003,6 +4003,9 @@
   },
   "CO": {
     "common": [
+      "passenger_license_plate"
+    ],
+    "other": [
       "4th infantry combined-mc-pwd",
       "4th infantry combined-mc.JPG",
       "4th infantry combined-pass-pwd",
@@ -4298,7 +4301,6 @@
       "livery.gif",
       "manufacturer.gif",
       "motorcycle.jpg",
-      "passenger_license_plate",
       "rec_truck.jpg",
       "rsz_member_us_congress_812018.jpg",
       "rsz_member_us_senate_812018.jpg",
@@ -4317,6 +4319,9 @@
   },
   "GA": {
     "common": [
+      "PR_Large"
+    ],
+    "other": [
       "9AK_Large",
       "9AT_Large",
       "9NC_Large",
@@ -4435,6 +4440,7 @@
       "GU_Large",
       "GW_Large",
       "GY_Large",
+      "Georgia_RXK8223",
       "H1_Large",
       "H2_Large",
       "HA_Large",
@@ -4522,7 +4528,6 @@
       "PN_Large",
       "PP_Large",
       "PQ_Large",
-      "PR_Large",
       "PU_Large",
       "R1_Large",
       "RA_Large",
@@ -4636,6 +4641,9 @@
   },
   "AZ": {
     "common": [
+      "license-plate-regular"
+    ],
+    "other": [
       "AHS-new-platex",
       "GOLD-STAR-FAMILY-00000",
       "License-Plate-Alzheimers-Awareness",
@@ -4712,7 +4720,6 @@
       "license-plate-phx-international-raceway-new2020",
       "license-plate-pink-ribbon",
       "license-plate-purple-heart",
-      "license-plate-regular",
       "license-plate-regular-disability",
       "license-plate-rodeo-300x",
       "license-plate-route-66",
@@ -4748,6 +4755,11 @@
   },
   "IN": {
     "common": [
+      "indianarrr",
+      "plate-placeholder",
+      "standplate_igwt-large"
+    ],
+    "other": [
       "500_Festival",
       "Air_Force_Veteran",
       "Amateur-Radio-2017",
@@ -4883,7 +4895,6 @@
       "specplate_wc-large",
       "standplate_antiquecar-large",
       "standplate_disability-large",
-      "standplate_igwt-large",
       "standplate_rv-large",
       "standplate_specmachine-large",
       "standplate_truck-large",
@@ -4932,7 +4943,10 @@
     ]
   },
   "ID": {
-    "common": [
+    "Common": [
+      "idaho-license-plate-sample"
+    ],
+    "other": [
       "ARMY",
       "CLASSIC",
       "ID-plates_image-008",
@@ -5049,13 +5063,16 @@
     ]
   },
   "DC": {
-    "common": [
+    "Common": [
+      "DcPlatePassenger"
+    ],
+    "other": [
       "Caps Tag 3 - 2018-sc.jpg",
       "Caps Tag 3.jpg",
       "NorfolkStateUDCDMVTag",
-      "Vision%20Zero%20Tags%202",
-      "Washington Mystics Tags",
-      "Washington Mystics Tags - 2019 champs",
+      "Vision20Zero20Tags202",
+      "WashingtonMysticsTags",
+      "WashingtonMysticsTags2019champs",
       "dc dmv anacostia river commemorative tag",
       "dc dmv disabled american veteran tags",
       "dc dmv disabled american veteran tags-symbol",
@@ -5072,7 +5089,6 @@
       "dc%20dmv%20tag%20badboys",
       "dc%20dmv%20tag%20blueknights",
       "dc%20dmv%20tag%20children",
-      "dc%20dmv%20tag%20dav",
       "dc%20dmv%20tag%20dcfop",
       "dc%20dmv%20tag%20donatelife",
       "dc%20dmv%20tag%20dst",
@@ -5088,7 +5104,6 @@
       "dc%20dmv%20tag%20nabs",
       "dc%20dmv%20tag%20nationals",
       "dc%20dmv%20tag%20ncat",
-      "dc%20dmv%20tag%20olemiss",
       "dc%20dmv%20tag%20opp",
       "dc%20dmv%20tag%20porsche",
       "dc%20dmv%20tag%20princehall",
@@ -5096,7 +5111,9 @@
       "dc%20dmv%20tag%20smu",
       "dc%20dmv%20tag%20spirit",
       "dc%20dmv%20tag%20umich",
-      "dc%20dmv%20tag%20vfw"
+      "dc%20dmv%20tag%20vfw",
+      "dc20dmv20tag%20dav",
+      "dc_universityofmississippi"
     ]
   },
   "MT": {
@@ -5429,7 +5446,10 @@
     ]
   },
   "DE": {
-    "common": [
+    "Common": [
+      "Delaware_plate,_2008_series_with_2013_sticker"
+    ],
+    "other": [
       "AutismAcceptance&Inclusion",
       "BronzeStar",
       "CCC",
@@ -5686,6 +5706,10 @@
   },
   "KY": {
     "common": [
+      "Standard_Vehicle",
+      "Standard_Vehicle_-_In_God_We_Trust"
+    ],
+    "other": [
       "AIKCU",
       "Air_Force_Academy",
       "Air_Force_Academy_MC",
@@ -5823,8 +5847,6 @@
       "Spalding",
       "Spay-Neuter",
       "Standard_Motorcycle",
-      "Standard_Vehicle",
-      "Standard_Vehicle_-_In_God_We_Trust",
       "State_Representative",
       "State_Senator",
       "Street_Rod",
@@ -5995,7 +6017,10 @@
     ]
   },
   "HI": {
-    "common": [
+    "Common": [
+      "Hawaii_passenger_Plate_regular"
+    ],
+    "other": [
       "National_Parks",
       "PVS_Plate",
       "Veterans_Specialty_License_Plate_-_Combat_Wounded",
@@ -6004,7 +6029,6 @@
       "korea-vet",
       "pearl_harbor",
       "persian-gulf-vet",
-      "standard-plate",
       "veteran",
       "vietnam-vet",
       "vietnam-vet-mc",
@@ -6014,6 +6038,10 @@
   },
   "IL": {
     "common": [
+      "oldplatepassenger",
+      "passengervanity"
+    ],
+    "other": [
       "alzheimers",
       "amateurradio",
       "americaremembers",
@@ -6085,7 +6113,6 @@
       "p",
       "p-alphakappaalpha",
       "parkdistrict",
-      "passengervanity",
       "peoriawildlife",
       "personsdisabilities",
       "petfriendly",
@@ -6143,6 +6170,9 @@
   },
   "ME": {
     "common": [
+      "passengerplt"
+    ],
+    "other": [
       "AC",
       "AQ",
       "AU",
@@ -6182,7 +6212,6 @@
       "goldstarplate2",
       "lighthouse",
       "lobsterplt",
-      "passengerplt",
       "pearlharborplt",
       "purpleheartmcplt",
       "purpleheartplt",
@@ -6195,7 +6224,10 @@
     ]
   },
   "FL": {
-    "common": [
+    "Common": [
+      "florida_passengerplateRegular"
+    ],
+    "other": [
       "Agriculture Consumer Services",
       "Amateur Radio",
       "Apply for Workforce Innovation",
@@ -6529,6 +6561,9 @@
   },
   "IA": {
     "common": [
+      "personal"
+    ],
+    "other": [
       "AgLit-small",
       "AllenCollege",
       "Blackout-sm",
@@ -6589,7 +6624,6 @@
       "navymarines_small",
       "panthers",
       "pearl_small",
-      "personal",
       "pheasant_small",
       "purple_small",
       "redraiders",
@@ -6758,7 +6792,10 @@
     ]
   },
   "MI": {
-    "common": [
+    "Common": [
+      "2017_Michigan_state_license_plate,_DNJ-0955"
+    ],
+    "other": [
       "MilitaryVeterans_AfghanistanCampaignMedal",
       "MilitaryVeterans_AfghanistanConflict",
       "MilitaryVeterans_AirForce",
@@ -6907,7 +6944,9 @@
   },
   "AR": {
     "common": [
-      "123_11",
+      "123_11"
+    ],
+    "other": [
       "4h_lg",
       "AMPA_lg",
       "ARTennisLicensePlate2ndCAD",
@@ -7100,7 +7139,11 @@
     ]
   },
   "LA": {
-    "common": [
+    "Common": [
+      "Louisiana_America_250_license_plate",
+      "s-l1200"
+    ],
+    "other": [
       "4HPLATE",
       "AE",
       "AFGHANCAMPVET",
@@ -7125,7 +7168,6 @@
       "BREASTCANCERPLATE",
       "BROTHERMARTINHS",
       "BSP",
-      "Blank_ImageNotAvailable",
       "Blue Star Mothers",
       "BoyScoutsOfAmerica",
       "BronzeStarMedal",
@@ -7323,7 +7365,11 @@
     ]
   },
   "KS": {
-    "common": [
+    "Common": [
+      "kans",
+      "ks_regnw"
+    ],
+    "other": [
       "KS-plates_image-001",
       "KS-plates_image-004",
       "KS-plates_image-012",
@@ -7528,7 +7574,10 @@
     ]
   },
   "MN": {
-    "common": [
+    "Common": [
+      "ABC_123_currently_MN_plate_from_my_collection"
+    ],
+    "other": [
       "MN-plates_image-002",
       "MN-plates_image-003",
       "MN-plates_image-004",
@@ -7644,6 +7693,9 @@
   },
   "AL": {
     "common": [
+      "2022-passenger-sample-image-scaled"
+    ],
+    "other": [
       "190731_CottonModule_tag_page",
       "190731_MiniTruck_tag_page",
       "190802_AlabamaHomeBuilders_tag_page",
@@ -7665,7 +7717,6 @@
       "200221_AlabamaRealtorFoundation2020_tag_page",
       "200221_AmateurRadio2020_tag_page",
       "200221_SpringHillCollege2020_tag_page",
-      "2022-passenger-sample-image-scaled",
       "2027-Permanent-Placard-P000000-scaled-1",
       "AL-Audubon-2022-passenger",
       "AL-Cattlemen-2022-approved-passenger",
